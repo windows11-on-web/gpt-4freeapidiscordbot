@@ -1,8 +1,5 @@
-# Discord AI Chatbot 🤖
-#### Your Discord AI Companion!
-
-![Image](https://cdn.discordapp.com/attachments/1119920576417513472/1127122563982688296/image.png)
-![Image](https://cdn.discordapp.com/attachments/1119920576417513472/1127134209169969253/image.png)
+# Discord AI Chatbot with gpt-4 🤖
+#### Your Discord AI Companion! and she is smart
 
 <div align="center">
   <a href="https://discord.gg/FXMS2stUpq">
