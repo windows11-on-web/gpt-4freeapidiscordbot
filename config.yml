@@ -1,0 +1,66 @@
+INTERNET_ACCESS: false # Set to true to enable internet access
+MAX_SEARCH_RESULTS: 1 # Set the maximum search results for internet access DONT SET TOO HIGH
+
+ALLOW_DM: true # Set to true to allow direct messages
+SMART_MENTION: true # Set to true to enable smart mention feature
+
+GPT_MODEL: gpt-4 # Model used for chat completion.
+
+# - List of usable models
+ # = gpt-4 [OpenAI/Comes On with code]
+ # - gpt-4-0613 [OpenAI]
+ # - gpt-4-0314 [OpenAI]
+ # - gpt-3.5-turbo [OpenAI]
+ # - gpt-3.5-turbo-0301 [OpenAI]
+ # - gpt-3.5-turbo-16k [OpenAI]
+ # - llama-2-7b-chat [Hugging Face]
+ # - llama-2-13b-chat [Hugging Face]
+ # - llama-2-70b-chat [Hugging Face]
+ # - chat-bison-001 [Hugging Face]
+
+# Blob Models / usable in confing 
+ # GPT-4 (gpt-4)
+ # GPT-4-0613 (gpt-4-0613)
+ # GPT-3.5 Turbo (gpt-3.5-turbo)
+ # GPT-3.5 Turbo OpenAI (gpt-3.5-turbo-openai)
+ # GPT-3.5 Turbo 16k (gpt-3.5-turbo-16k)
+ # GPT-3.5 Turbo 16k OpenAI (gpt-3.5-turbo-16k-openai)
+ # Chat Bison 001 (chat-bison-001)
+
+
+
+MAX_HISTORY: 8 # Set the maximum message history
+
+PRESENCES_CHANGE_DELAY: 200 # Please note that the Presences Change Delay is measured in seconds. It is advisable not to set it too low, as doing so may result in your bot being rate-limited by Discord
+AI_NSFW_CONTENT_FILTER: false # Enable NSFW AI detector to detect NSFW prompt on Imagine Command
+
+LANGUAGE: en # Specify the language code (check lang folder for valid codes)
+
+INSTRUCTIONS: assist # Specify the instruction prompt to use (check instructions folder for valid prompts)
+# To add custom prompts, create a .txt file like custom.txt in `instructions` folder and set INSTRUCTIONS as custom
+
+Discord: https://discord.gg/FXMS2stUpq
+Github: 
+
+TRIGGER:
+  - chatbot
+  - bot nickname
+  - bot alias
+  - bot name
+
+ 
+# Define the triggers that the bot should always respond to when in message
+
+PRESENCES:
+  - Experimental
+
+# List of different presences to be used
+
+OCR_MODEL_URLS:
+  - "https://api-inference.huggingface.co/models/microsoft/trocr-base-printed"
+  - "https://api-inference.huggingface.co/models/nlpconnect/vit-gpt2-image-captioning"
+# List of URLs for OCR models
+
+BLACKLIST_WORDS:
+  
+# Blacklisted words for /Imagine command this is disabled if you enable AI_NSFW_CONTENT_FILTER

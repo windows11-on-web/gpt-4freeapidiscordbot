@@ -1,0 +1,15 @@
+aiohttp
+asyncio
+discord.py
+requests
+flask
+discord
+python-dotenv
+PyYAML
+youtube-transcript-api
+langdetect
+PyPDF2
+python-docx
+tqdm
+fake-useragent
+openai
